@@ -1,0 +1,38 @@
+== 1. Empty chains: output matches dry
+  PASS  no NaN / inf
+  PASS  locked after 3 s
+  PASS  loudness equal to dry (-0.00 dB)
+== 2. Drive in chain A: louder plug-in, same output loudness
+  PASS  load PLXTestDrive into A 
+  PASS  locked
+  PASS  matched: 0.04 dB from dry
+  PASS  gain stays still while locked (moved 0.000 dB over 6 s)
+  PASS  still matched: 0.06 dB
+  PASS  Drive change was audible before re-match (6.91 dB)
+  PASS  re-locked by itself after Drive change
+  PASS  re-matched: 0.05 dB (gain -3.1 -> -9.9)
+  PASS  Amount 90%: matched 0.11 dB
+  PASS  Level A 30%: matched -0.84 dB
+  PASS  lock off: no compensation
+  PASS  lock off: state off
+  PASS  lock on again: matched 0.09 dB
+  PASS  no NaN / inf
+== 3. Saved and reopened
+  PASS  chain A restored
+  PASS  plug-in state restored (Drive 30.0)
+  PASS  Parallax knobs restored
+  PASS  locked immediately, no re-measuring on open
+  PASS  same compensation as saved (4.76 vs 4.76)
+== 4. Latency: chains line up with dry
+  PASS  load PLXTestLatency into B 
+  PASS  reports 100 samples to the host
+  PASS  aligned (correlation 1.000000)
+== 5. Solo at dry loudness
+  PASS  solo B plays at dry loudness (-0.09 dB)
+  PASS  no NaN / inf
+== 6. Remove while playing
+  PASS  latency back to 0
+  PASS  no NaN / inf
+
+ALL TESTS PASSED
+x86_64 arm64

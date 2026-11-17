@@ -1,0 +1,420 @@
+[0/2] Re-checking globbed directories...
+[1/135] Building CXX object CMakeFiles/Parallax.dir/Source/Host/HostedInstance.cpp.o
+[2/135] Building CXX object CMakeFiles/Parallax.dir/Source/Host/PluginWindows.cpp.o
+[3/135] Building CXX object CMakeFiles/Parallax.dir/Source/Engine/ParallaxEngine.cpp.o
+[4/135] Building CXX object CMakeFiles/Parallax.dir/Source/Host/PluginCatalog.cpp.o
+[5/135] Building CXX object CMakeFiles/Parallax.dir/Source/PluginProcessor.cpp.o
+[6/135] Building CXX object CMakeFiles/Parallax.dir/Source/UI/PluginEditor.cpp.o
+[7/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_gui_extra/juce_gui_extra.mm.o
+[8/135] Building C object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+[9/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.mm.o
+[10/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_events/juce_events.mm.o
+[11/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o
+[12/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+[13/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o
+[14/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_ara.cpp.o
+[15/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_lv2_libs.cpp.o
+[16/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_graphics/juce_graphics.mm.o
+[17/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_data_structures/juce_data_structures.mm.o
+[18/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o
+[19/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.mm.o
+[20/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm.o
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm:35:
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.cpp:61:2: warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored [-W#pragma-messages]
+   61 |  JUCE_COMPILER_WARNING ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_PlatformDefs.h:292:38: note: expanded from macro 'JUCE_COMPILER_WARNING'
+  292 |  #define JUCE_COMPILER_WARNING(msg)  _Pragma (JUCE_STRINGIFY (message (msg)))
+      |                                      ^
+<scratch space>:175:2: note: expanded from here
+  175 |  message ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+1 warning generated.
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm:35:
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.cpp:61:2: warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored [-W#pragma-messages]
+   61 |  JUCE_COMPILER_WARNING ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_PlatformDefs.h:292:38: note: expanded from macro 'JUCE_COMPILER_WARNING'
+  292 |  #define JUCE_COMPILER_WARNING(msg)  _Pragma (JUCE_STRINGIFY (message (msg)))
+      |                                      ^
+<scratch space>:59:2: note: expanded from here
+   59 |  message ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+1 warning generated.
+[21/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm.o
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.cpp:47:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/juce_core.h:215:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_StandardHeader.h:68:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.cpp:47:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/juce_core.h:215:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_StandardHeader.h:68:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+[22/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_dsp/juce_dsp.mm.o
+[23/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_devices/juce_audio_devices.mm.o
+[24/135] Building CXX object CMakeFiles/Parallax.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o
+[25/135] Building CXX object CMakeFiles/Parallax_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp:47:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp:47:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+[26/135] Building CXX object CMakeFiles/PLXTestDrive.dir/Tests/TestPlugins/PLXTestDrive.cpp.o
+[27/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.mm.o
+[28/135] Building C object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+[29/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_gui_extra/juce_gui_extra.mm.o
+[30/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_events/juce_events.mm.o
+[31/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o
+[32/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o
+[33/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+[34/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_ara.cpp.o
+[35/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_lv2_libs.cpp.o
+[36/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_data_structures/juce_data_structures.mm.o
+[37/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_graphics/juce_graphics.mm.o
+[38/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm.o
+[39/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o
+[40/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.mm.o
+[41/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm.o
+[42/135] Building CXX object CMakeFiles/PLXTestDrive_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp:47:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp:47:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+[43/135] Building CXX object CMakeFiles/PLXTestLatency.dir/Tests/TestPlugins/PLXTestLatency.cpp.o
+[44/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_devices/juce_audio_devices.mm.o
+[45/135] Building CXX object CMakeFiles/PLXTestDrive.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o
+[46/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.mm.o
+[47/135] Building C object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+[48/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_gui_extra/juce_gui_extra.mm.o
+[49/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_events/juce_events.mm.o
+[50/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o
+[51/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o
+[52/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_data_structures/juce_data_structures.mm.o
+[53/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_ara.cpp.o
+[54/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_lv2_libs.cpp.o
+[55/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_graphics/juce_graphics.mm.o
+[56/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+[57/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm.o
+[58/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.mm.o
+[59/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o
+[60/135] Building CXX object CMakeFiles/PLXTestLatency_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp:47:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp:47:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+[61/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm.o
+[62/135] Linking CXX static library Parallax_artefacts/Release/libParallax_SharedCode.a
+[63/135] Linking CXX executable Parallax_vst3_helper
+[64/135] Linking CXX static library PLXTestDrive_artefacts/Release/libPLXTestDrive_SharedCode.a
+[65/135] Linking CXX executable PLXTestDrive_vst3_helper
+[66/135] Linking CXX executable PLXTestLatency_vst3_helper
+[67/135] Generating Parallax_artefacts/JuceLibraryCode/Parallax_VST3/PkgInfo
+[68/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[69/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[70/135] Generating PLXTestDrive_artefacts/JuceLibraryCode/PLXTestDrive_VST3/PkgInfo
+[71/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[72/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[73/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[74/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[75/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[76/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[77/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[78/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[79/135] Building CXX object CMakeFiles/ParallaxTests.dir/Source/Host/HostedInstance.cpp.o
+[80/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_devices/juce_audio_devices.mm.o
+[81/135] Building CXX object CMakeFiles/PLXTestLatency.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o
+[82/135] Linking CXX static library PLXTestLatency_artefacts/Release/libPLXTestLatency_SharedCode.a
+[83/135] Generating PLXTestLatency_artefacts/JuceLibraryCode/PLXTestLatency_VST3/PkgInfo
+[84/135] Building CXX object CMakeFiles/Parallax_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[85/135] Building CXX object CMakeFiles/ParallaxTests.dir/Source/Host/PluginCatalog.cpp.o
+[86/135] Building CXX object CMakeFiles/ParallaxTests.dir/Source/Host/PluginWindows.cpp.o
+[87/135] Building CXX object CMakeFiles/ParallaxTests.dir/Source/Engine/ParallaxEngine.cpp.o
+[88/135] Building CXX object CMakeFiles/ParallaxTests.dir/Source/PluginProcessor.cpp.o
+[89/135] Building CXX object CMakeFiles/ParallaxTests.dir/Tests/EngineTests.cpp.o
+[90/135] Building CXX object CMakeFiles/ParallaxTests.dir/Source/UI/PluginEditor.cpp.o
+[91/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_utils/juce_audio_utils.mm.o
+[92/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_gui_extra/juce_gui_extra.mm.o
+[93/135] Building C object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+[94/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_processors/juce_audio_processors.mm.o
+[95/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_events/juce_events.mm.o
+[96/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o
+[97/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o
+[98/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+[99/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_ara.cpp.o
+[100/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless_lv2_libs.cpp.o
+[101/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_graphics/juce_graphics.mm.o
+[102/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_data_structures/juce_data_structures.mm.o
+[103/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm.o
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm:35:
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.cpp:61:2: warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored [-W#pragma-messages]
+   61 |  JUCE_COMPILER_WARNING ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_PlatformDefs.h:292:38: note: expanded from macro 'JUCE_COMPILER_WARNING'
+  292 |  #define JUCE_COMPILER_WARNING(msg)  _Pragma (JUCE_STRINGIFY (message (msg)))
+      |                                      ^
+<scratch space>:175:2: note: expanded from here
+  175 |  message ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+1 warning generated.
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.mm:35:
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_gui_basics/juce_gui_basics.cpp:61:2: warning: This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored [-W#pragma-messages]
+   61 |  JUCE_COMPILER_WARNING ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_PlatformDefs.h:292:38: note: expanded from macro 'JUCE_COMPILER_WARNING'
+  292 |  #define JUCE_COMPILER_WARNING(msg)  _Pragma (JUCE_STRINGIFY (message (msg)))
+      |                                      ^
+<scratch space>:59:2: note: expanded from here
+   59 |  message ("This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored")
+      |  ^
+1 warning generated.
+[104/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o
+[105/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o
+[106/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[107/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[108/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[109/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[110/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[111/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[112/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[113/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[114/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[115/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[116/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_devices/juce_audio_devices.mm.o
+[117/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX_utils.cpp.o
+[118/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o
+[119/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o
+[120/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o
+[121/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o
+[122/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o
+[123/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o
+[124/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o
+[125/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o
+[126/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.mm.o
+[127/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_dsp/juce_dsp.mm.o
+[128/135] Building CXX object CMakeFiles/ParallaxTests.dir/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm.o
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.cpp:47:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/juce_core.h:215:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_StandardHeader.h:68:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.mm:35:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.cpp:47:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/juce_audio_processors_headless.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.h:66:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/juce_core.h:215:
+In file included from /Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_core/system/juce_StandardHeader.h:68:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:601:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:363:
+In file included from /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:203:
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:179:1: warning: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' is deprecated [-Wdeprecated-declarations]
+  179 | wstring_convert<_Codecvt, _Elem, _WideAlloc, _ByteAlloc>::to_bytes(const _Elem* __frm, const _Elem* __frm_end) {
+      | ^
+/Users/runner/work/Parallax/Parallax/build-mac/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp:72:22: note: in instantiation of member function 'std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>::to_bytes' requested here
+   72 |         return converter ().to_bytes (reinterpret_cast<const UTF16Type*> (str.data ()),
+      |                             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h:34:7: note: 'wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t>' has been explicitly marked deprecated here
+   34 | class _LIBCPP_DEPRECATED_IN_CXX17 wstring_convert {
+      |       ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:581:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX17'
+  581 | #    define _LIBCPP_DEPRECATED_IN_CXX17 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:554:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  554 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+1 warning generated.
+[129/135] Linking CXX executable ParallaxTests_artefacts/Release/ParallaxTests
+[130/135] Building CXX object CMakeFiles/PLXTestDrive_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[131/135] Linking CXX CFBundle shared module PLXTestDrive_artefacts/Release/VST3/PLXTestDrive.vst3/Contents/MacOS/PLXTestDrive
+/Users/runner/work/Parallax/Parallax/build-mac/PLXTestDrive_artefacts/Release/VST3/PLXTestDrive.vst3: code object is not signed at all
+-- Replacing invalid signature with ad-hoc signature
+/Users/runner/work/Parallax/Parallax/build-mac/PLXTestDrive_artefacts/Release/VST3/PLXTestDrive.vst3: replacing existing signature
+removing moduleinfo.json
+creating /Users/runner/work/Parallax/Parallax/build-mac/PLXTestDrive_artefacts/Release/VST3/PLXTestDrive.vst3
+[132/135] Building CXX object CMakeFiles/PLXTestLatency_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.mm.o
+[133/135] Linking CXX CFBundle shared module PLXTestLatency_artefacts/Release/VST3/PLXTestLatency.vst3/Contents/MacOS/PLXTestLatency
+/Users/runner/work/Parallax/Parallax/build-mac/PLXTestLatency_artefacts/Release/VST3/PLXTestLatency.vst3: code object is not signed at all
+-- Replacing invalid signature with ad-hoc signature
+/Users/runner/work/Parallax/Parallax/build-mac/PLXTestLatency_artefacts/Release/VST3/PLXTestLatency.vst3: replacing existing signature
+removing moduleinfo.json
+creating /Users/runner/work/Parallax/Parallax/build-mac/PLXTestLatency_artefacts/Release/VST3/PLXTestLatency.vst3
+[134/135] Linking CXX CFBundle shared module Parallax_artefacts/Release/VST3/Parallax.vst3/Contents/MacOS/Parallax
+/Users/runner/work/Parallax/Parallax/build-mac/Parallax_artefacts/Release/VST3/Parallax.vst3: code object is not signed at all
+-- Replacing invalid signature with ad-hoc signature
+/Users/runner/work/Parallax/Parallax/build-mac/Parallax_artefacts/Release/VST3/Parallax.vst3: replacing existing signature
+removing moduleinfo.json
+creating /Users/runner/work/Parallax/Parallax/build-mac/Parallax_artefacts/Release/VST3/Parallax.vst3
