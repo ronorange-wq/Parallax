@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   build:
-    runs-on: macos-15-intel    # Universal binary: native arm64 (Apple Silicon) + x86_64
+    runs-on: macos-15          # Apple Silicon runner; builds a Universal binary (arm64 + x86_64)
     steps:
       - uses: actions/checkout@v4
       - name: Install tools
