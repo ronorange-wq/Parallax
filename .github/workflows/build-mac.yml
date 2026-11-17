@@ -3,10 +3,29 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # GitHub's macOS machines are often unavailable right now: retry every hour until a
+    # build of the current code exists (the "check" job skips the Mac build once it does)
+    - cron: "23 * * * *"
 permissions:
   contents: write
+concurrency:
+  group: mac-build
+  cancel-in-progress: false
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      needed: ${{ steps.c.outputs.needed }}
+    steps:
+      - id: c
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          notes=$(gh release view latest --repo "${{ github.repository }}" --json body --jq .body 2>/dev/null || true)
+          if echo "$notes" | grep -q "${{ github.sha }}"; then echo "needed=false" >> "$GITHUB_OUTPUT"; echo "Already built."; else echo "needed=true" >> "$GITHUB_OUTPUT"; fi
   linux-tests:
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,6 +38,9 @@ jobs:
       - name: Engine tests
         run: xvfb-run -a build/ParallaxTests_artefacts/Release/ParallaxTests "$PWD/build"
   build:
+    needs: check
+    if: needs.check.outputs.needed == 'true'
+    timeout-minutes: 60
     runs-on: macos-latest      # Apple Silicon runner; builds a Universal binary (arm64 + x86_64)
     steps:
       - uses: actions/checkout@v4
